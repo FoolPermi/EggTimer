@@ -13,6 +13,7 @@
 		4DA3106F22053471008344EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA3106D22053471008344EC /* Main.storyboard */; };
 		4DB0943122193C60009315EA /* ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DB0943022193C60009315EA /* ding.mp3 */; };
 		4DB094332219454F009315EA /* PrefsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB094322219454F009315EA /* PrefsViewController.swift */; };
+		4DB0943822197FE7009315EA /* EggTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB0943722197FE7009315EA /* EggTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		4DA3107122053471008344EC /* EggTimer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EggTimer.entitlements; sourceTree = "<group>"; };
 		4DB0943022193C60009315EA /* ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ding.mp3; sourceTree = "<group>"; };
 		4DB094322219454F009315EA /* PrefsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefsViewController.swift; sourceTree = "<group>"; };
+		4DB0943722197FE7009315EA /* EggTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +60,40 @@
 			isa = PBXGroup;
 			children = (
 				4DA3106722053470008344EC /* AppDelegate.swift */,
-				4DA3106922053470008344EC /* ViewController.swift */,
+				4DB0943422197F72009315EA /* View Controllers */,
+				4DB0943622197FAD009315EA /* Model */,
 				4DA3106B22053471008344EC /* Assets.xcassets */,
 				4DA3106D22053471008344EC /* Main.storyboard */,
-				4DB094322219454F009315EA /* PrefsViewController.swift */,
-				4DA3107022053471008344EC /* Info.plist */,
-				4DA3107122053471008344EC /* EggTimer.entitlements */,
+				4DB0943522197F8E009315EA /* Supporting Files */,
 				4DB0943022193C60009315EA /* ding.mp3 */,
 			);
 			path = EggTimer;
+			sourceTree = "<group>";
+		};
+		4DB0943422197F72009315EA /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4DA3106922053470008344EC /* ViewController.swift */,
+				4DB094322219454F009315EA /* PrefsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		4DB0943522197F8E009315EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DA3107022053471008344EC /* Info.plist */,
+				4DA3107122053471008344EC /* EggTimer.entitlements */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DB0943622197FAD009315EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4DB0943722197FE7009315EA /* EggTimer.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DA3106A22053470008344EC /* ViewController.swift in Sources */,
+				4DB0943822197FE7009315EA /* EggTimer.swift in Sources */,
 				4DB094332219454F009315EA /* PrefsViewController.swift in Sources */,
 				4DA3106822053470008344EC /* AppDelegate.swift in Sources */,
 			);
@@ -280,7 +308,7 @@
 				CODE_SIGN_ENTITLEMENTS = EggTimer/EggTimer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = EggTimer/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/EggTimer/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -298,7 +326,7 @@
 				CODE_SIGN_ENTITLEMENTS = EggTimer/EggTimer.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = EggTimer/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/EggTimer/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
