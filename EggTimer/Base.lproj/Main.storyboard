@@ -10,7 +10,7 @@
         <scene sceneID="JPo-4y-FX3">
             <objects>
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
-                    <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
+                    <menu key="mainMenu" title="Main Menu" systemMenu="main" autoenablesItems="NO" id="AYu-sK-qS6">
                         <items>
                             <menuItem title="EggTimer" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
@@ -62,19 +62,19 @@
                             </menuItem>
                             <menuItem title="Timer" id="Qu5-KI-tqb" userLabel="Timer">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="Timer" id="1Mw-Tr-2xN">
+                                <menu key="submenu" title="Timer" autoenablesItems="NO" id="1Mw-Tr-2xN">
                                     <items>
-                                        <menuItem title="Start" keyEquivalent="s" id="uKs-1i-UUI" userLabel="Start">
+                                        <menuItem title="Start" enabled="NO" keyEquivalent="s" id="uKs-1i-UUI" userLabel="Start">
                                             <connections>
                                                 <action selector="startTimerMenuItemSelected:" target="Ady-hI-5gd" id="hp4-if-ygl"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Stop" keyEquivalent="x" id="kT0-EN-Y9n" userLabel="Stop">
+                                        <menuItem title="Stop" enabled="NO" keyEquivalent="x" id="kT0-EN-Y9n" userLabel="Stop">
                                             <connections>
                                                 <action selector="stopTimerMenuItemSelected:" target="Ady-hI-5gd" id="irr-il-1Aj"/>
                                             </connections>
                                         </menuItem>
-                                        <menuItem title="Reset" keyEquivalent="r" id="eJT-Fr-Jrf" userLabel="Reset">
+                                        <menuItem title="Reset" enabled="NO" keyEquivalent="r" id="eJT-Fr-Jrf" userLabel="Reset">
                                             <connections>
                                                 <action selector="resetTimerMenuItemSelected:" target="Ady-hI-5gd" id="QMl-Ig-f2K"/>
                                             </connections>
@@ -127,9 +127,9 @@
                 </application>
                 <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="EggTimer" customModuleProvider="target">
                     <connections>
-                        <outlet property="resetTimerMenuItem" destination="eJT-Fr-Jrf" id="dvr-UQ-ccm"/>
-                        <outlet property="startTimerMenuItem" destination="uKs-1i-UUI" id="w1e-vX-F1l"/>
-                        <outlet property="stopTimerMenuItem" destination="kT0-EN-Y9n" id="btC-UU-vBc"/>
+                        <outlet property="resetTimerMenuItem" destination="eJT-Fr-Jrf" id="3yQ-my-BVC"/>
+                        <outlet property="startTimerMenuItem" destination="uKs-1i-UUI" id="zRz-pL-V37"/>
+                        <outlet property="stopTimerMenuItem" destination="kT0-EN-Y9n" id="g36-iE-578"/>
                     </connections>
                 </customObject>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
