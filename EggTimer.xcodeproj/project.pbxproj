@@ -11,6 +11,8 @@
 		4DA3106A22053470008344EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA3106922053470008344EC /* ViewController.swift */; };
 		4DA3106C22053471008344EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA3106B22053471008344EC /* Assets.xcassets */; };
 		4DA3106F22053471008344EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA3106D22053471008344EC /* Main.storyboard */; };
+		4DB0943122193C60009315EA /* ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DB0943022193C60009315EA /* ding.mp3 */; };
+		4DB094332219454F009315EA /* PrefsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB094322219454F009315EA /* PrefsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		4DA3106E22053471008344EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DA3107022053471008344EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DA3107122053471008344EC /* EggTimer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EggTimer.entitlements; sourceTree = "<group>"; };
+		4DB0943022193C60009315EA /* ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ding.mp3; sourceTree = "<group>"; };
+		4DB094322219454F009315EA /* PrefsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +61,10 @@
 				4DA3106922053470008344EC /* ViewController.swift */,
 				4DA3106B22053471008344EC /* Assets.xcassets */,
 				4DA3106D22053471008344EC /* Main.storyboard */,
+				4DB094322219454F009315EA /* PrefsViewController.swift */,
 				4DA3107022053471008344EC /* Info.plist */,
 				4DA3107122053471008344EC /* EggTimer.entitlements */,
+				4DB0943022193C60009315EA /* ding.mp3 */,
 			);
 			path = EggTimer;
 			sourceTree = "<group>";
@@ -123,6 +129,7 @@
 			files = (
 				4DA3106C22053471008344EC /* Assets.xcassets in Resources */,
 				4DA3106F22053471008344EC /* Main.storyboard in Resources */,
+				4DB0943122193C60009315EA /* ding.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DA3106A22053470008344EC /* ViewController.swift in Sources */,
+				4DB094332219454F009315EA /* PrefsViewController.swift in Sources */,
 				4DA3106822053470008344EC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

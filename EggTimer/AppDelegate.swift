@@ -11,8 +11,10 @@ import Cocoa
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-
-
+    @IBOutlet weak var startTimerMenuItem: NSMenuItem!
+    @IBOutlet weak var stopTimerMenuItem: NSMenuItem!
+    @IBOutlet weak var resetTimerMenuItem: NSMenuItem!
+    
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
     }
