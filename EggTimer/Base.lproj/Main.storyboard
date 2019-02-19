@@ -206,7 +206,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yEr-ut-l64">
-                                <rect key="frame" x="149" y="98" width="64" height="17"/>
+                                <rect key="frame" x="149" y="98" width="249" height="17"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="6 minutes" id="9fH-QB-OAE">
                                     <font key="font" usesAppearanceFont="YES"/>

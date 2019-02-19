@@ -14,6 +14,7 @@
 		4DB0943122193C60009315EA /* ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DB0943022193C60009315EA /* ding.mp3 */; };
 		4DB094332219454F009315EA /* PrefsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB094322219454F009315EA /* PrefsViewController.swift */; };
 		4DB0943822197FE7009315EA /* EggTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB0943722197FE7009315EA /* EggTimer.swift */; };
+		4DB0943A22199C7C009315EA /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB0943922199C7C009315EA /* Preferences.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		4DB0943022193C60009315EA /* ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ding.mp3; sourceTree = "<group>"; };
 		4DB094322219454F009315EA /* PrefsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefsViewController.swift; sourceTree = "<group>"; };
 		4DB0943722197FE7009315EA /* EggTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimer.swift; sourceTree = "<group>"; };
+		4DB0943922199C7C009315EA /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				4DB0943722197FE7009315EA /* EggTimer.swift */,
+				4DB0943922199C7C009315EA /* Preferences.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				4DB0943822197FE7009315EA /* EggTimer.swift in Sources */,
 				4DB094332219454F009315EA /* PrefsViewController.swift in Sources */,
 				4DA3106822053470008344EC /* AppDelegate.swift in Sources */,
+				4DB0943A22199C7C009315EA /* Preferences.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
