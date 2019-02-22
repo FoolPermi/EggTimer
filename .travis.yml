@@ -1,0 +1,5 @@
+os: osx
+language: swift
+xcode_project: EggTimer.xcodeproj
+xcode_destination: platform=macOS
+
