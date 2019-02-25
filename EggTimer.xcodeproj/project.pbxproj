@@ -11,11 +11,22 @@
 		4DA3106A22053470008344EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA3106922053470008344EC /* ViewController.swift */; };
 		4DA3106C22053471008344EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA3106B22053471008344EC /* Assets.xcassets */; };
 		4DA3106F22053471008344EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA3106D22053471008344EC /* Main.storyboard */; };
+		4DAB668A222402C4007F642B /* EggTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAB6689222402C4007F642B /* EggTimerUITests.swift */; };
 		4DB0943122193C60009315EA /* ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4DB0943022193C60009315EA /* ding.mp3 */; };
 		4DB094332219454F009315EA /* PrefsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB094322219454F009315EA /* PrefsViewController.swift */; };
 		4DB0943822197FE7009315EA /* EggTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB0943722197FE7009315EA /* EggTimer.swift */; };
 		4DB0943A22199C7C009315EA /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB0943922199C7C009315EA /* Preferences.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DAB668C222402C4007F642B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DA3105C22053470008344EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DA3106322053470008344EC;
+			remoteInfo = EggTimer;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4DA3106422053470008344EC /* EggTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -25,6 +36,9 @@
 		4DA3106E22053471008344EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DA3107022053471008344EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DA3107122053471008344EC /* EggTimer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EggTimer.entitlements; sourceTree = "<group>"; };
+		4DAB6687222402C4007F642B /* EggTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EggTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DAB6689222402C4007F642B /* EggTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimerUITests.swift; sourceTree = "<group>"; };
+		4DAB668B222402C4007F642B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DB0943022193C60009315EA /* ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ding.mp3; sourceTree = "<group>"; };
 		4DB094322219454F009315EA /* PrefsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefsViewController.swift; sourceTree = "<group>"; };
 		4DB0943722197FE7009315EA /* EggTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimer.swift; sourceTree = "<group>"; };
@@ -39,6 +53,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4DAB6684222402C4007F642B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -46,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				4DA3106622053470008344EC /* EggTimer */,
+				4DAB6688222402C4007F642B /* EggTimerUITests */,
 				4DA3106522053470008344EC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				4DA3106422053470008344EC /* EggTimer.app */,
+				4DAB6687222402C4007F642B /* EggTimerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +93,15 @@
 				4DB0943022193C60009315EA /* ding.mp3 */,
 			);
 			path = EggTimer;
+			sourceTree = "<group>";
+		};
+		4DAB6688222402C4007F642B /* EggTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DAB6689222402C4007F642B /* EggTimerUITests.swift */,
+				4DAB668B222402C4007F642B /* Info.plist */,
+			);
+			path = EggTimerUITests;
 			sourceTree = "<group>";
 		};
 		4DB0943422197F72009315EA /* View Controllers */ = {
@@ -119,19 +151,41 @@
 			productReference = 4DA3106422053470008344EC /* EggTimer.app */;
 			productType = "com.apple.product-type.application";
 		};
+		4DAB6686222402C4007F642B /* EggTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DAB6690222402C4007F642B /* Build configuration list for PBXNativeTarget "EggTimerUITests" */;
+			buildPhases = (
+				4DAB6683222402C4007F642B /* Sources */,
+				4DAB6684222402C4007F642B /* Frameworks */,
+				4DAB6685222402C4007F642B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DAB668D222402C4007F642B /* PBXTargetDependency */,
+			);
+			name = EggTimerUITests;
+			productName = EggTimerUITests;
+			productReference = 4DAB6687222402C4007F642B /* EggTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		4DA3105C22053470008344EC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
+				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Permi;
 				TargetAttributes = {
 					4DA3106322053470008344EC = {
 						CreatedOnToolsVersion = 9.3;
 						LastSwiftMigration = 1010;
+					};
+					4DAB6686222402C4007F642B = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 4DA3106322053470008344EC;
 					};
 				};
 			};
@@ -149,6 +203,7 @@
 			projectRoot = "";
 			targets = (
 				4DA3106322053470008344EC /* EggTimer */,
+				4DAB6686222402C4007F642B /* EggTimerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -161,6 +216,13 @@
 				4DA3106C22053471008344EC /* Assets.xcassets in Resources */,
 				4DA3106F22053471008344EC /* Main.storyboard in Resources */,
 				4DB0943122193C60009315EA /* ding.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAB6685222402C4007F642B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,7 +241,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4DAB6683222402C4007F642B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAB668A222402C4007F642B /* EggTimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4DAB668D222402C4007F642B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DA3106322053470008344EC /* EggTimer */;
+			targetProxy = 4DAB668C222402C4007F642B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4DA3106D22053471008344EC /* Main.storyboard */ = {
@@ -342,6 +420,42 @@
 			};
 			name = Release;
 		};
+		4DAB668E222402C4007F642B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EggTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.foolpermi.EggTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = EggTimer;
+			};
+			name = Debug;
+		};
+		4DAB668F222402C4007F642B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EggTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.foolpermi.EggTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = EggTimer;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -359,6 +473,15 @@
 			buildConfigurations = (
 				4DA3107522053471008344EC /* Debug */,
 				4DA3107622053471008344EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DAB6690222402C4007F642B /* Build configuration list for PBXNativeTarget "EggTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DAB668E222402C4007F642B /* Debug */,
+				4DAB668F222402C4007F642B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
