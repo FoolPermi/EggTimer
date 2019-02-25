@@ -3,4 +3,5 @@ language: objective-c
 xcode_project: EggTimer.xcodeproj
 xcode_scheme: EggTimerUITests
 xcode_destination: platform=macOS
+osx_image: xcode10.1
 
