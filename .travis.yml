@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 os: osx
-language: swift
+language: objective-c
 xcode_project: EggTimer.xcodeproj
+xcode_scheme: EggTimer
 xcode_destination: platform=macOS
-=======
-language: swift
->>>>>>> 882605c43d27c2f1a5c4682e815a8c656def6830
 
