@@ -28,6 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+<<<<<<< HEAD
          <TestableReference
             skipped = "NO">
             <BuildableReference
@@ -38,6 +39,8 @@
                ReferencedContainer = "container:EggTimer.xcodeproj">
             </BuildableReference>
          </TestableReference>
+=======
+>>>>>>> 9fc920527b0f6c51bca7bd3507533536131456ed
       </Testables>
       <MacroExpansion>
          <BuildableReference
